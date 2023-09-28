@@ -22,3 +22,14 @@ function startGame(){
         })
     });
 }
+
+function res(){
+    var win = gui.Window.open('https://remcbox.flarum.cloud', {
+        position: 'center',
+        width: 901,
+        height: 127
+    });
+}
+
+function signup(){res();}
+function report(){res();}
