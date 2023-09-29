@@ -8,4 +8,4 @@ A Minecraft online tool, launcher and forum.
 | Apple| IOS/MAC|
 
 
-This tool is used to make you more easy to use and provide my world BBS and quick way of online, website: https://minecraftbox.link
+This tool is used to make you more easy to use and provide Minecraft BBS and quick way of online, website: https://minecraftbox.link
