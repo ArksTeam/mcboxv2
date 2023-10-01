@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.x">
+
+    <!-- 拥有完全的网络访问权限 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="多玩我的世界盒子"
+        android:theme="@style/AppTheme"
+        android:resizeableActivity="true">
+
+        <activity
+            android:name="x.Main"
+            android:label="多玩我的世界盒子"
+            android:exported="true">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="x.Browser"
+            android:label="多玩我的世界盒子"/>
+
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="4.0"/>
+
+    </application>
+
+</manifest>

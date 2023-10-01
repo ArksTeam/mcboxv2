@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FFFAEED9"
+	android:orientation="vertical">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:background="#FF80C26A">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="多玩我的世界盒子"
+			android:layout_centerInParent="true"
+			android:textSize="18sp"
+			android:textColor="#FFFFFFFF"/>
+
+	</RelativeLayout>
+
+	<GridLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1.0"
+		android:columnCount="3"
+		android:id="@+id/grid">
+
+	</GridLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:layout_alignParentBottom="true"
+		android:background="#FFFFFFFF">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="1.0"
+			android:gravity="center_horizontal"
+			android:paddingTop="5dp"
+			android:id="@+id/bm_res">
+
+			<View
+				android:layout_width="24dp"
+				android:background="@drawable/bar_map_press"
+				android:layout_height="24dp"/>
+
+			<TextView
+				android:layout_width="24dp"
+				android:layout_height="wrap_content"
+				android:text="资源"
+				android:textColor="#FF80C269"
+				android:textSize="12sp"
+				android:layout_margin="1dp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="1.0"
+			android:gravity="center_horizontal"
+			android:paddingTop="5dp"
+			android:id="@+id/bm_news">
+
+			<View
+				android:layout_width="24dp"
+				android:background="@drawable/bar_news_press"
+				android:backgroundTint="#FFB28850"
+				android:layout_height="24dp"/>
+
+			<TextView
+				android:layout_width="24dp"
+				android:layout_height="wrap_content"
+				android:text="头条"
+				android:textColor="#FFB28850"
+				android:textSize="12sp"
+				android:layout_margin="1dp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="1.0"
+			android:gravity="center_horizontal"
+			android:paddingTop="5dp"
+			android:id="@+id/bm_bbs">
+
+			<View
+				android:layout_width="24dp"
+				android:background="@drawable/bar_community_press"
+				android:backgroundTint="#FFB28850"
+				android:layout_height="24dp"/>
+
+			<TextView
+				android:layout_width="24dp"
+				android:layout_height="wrap_content"
+				android:text="M社"
+				android:textColor="#FFB28850"
+				android:textSize="12sp"
+				android:layout_margin="1dp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="1.0"
+			android:gravity="center_horizontal"
+			android:paddingTop="5dp"
+			android:id="@+id/bm_me">
+
+			<View
+				android:layout_width="24dp"
+				android:background="@drawable/bar_my_press"
+				android:backgroundTint="#FFB28850"
+				android:layout_height="24dp"/>
+
+			<TextView
+				android:layout_width="24dp"
+				android:layout_height="wrap_content"
+				android:text="我"
+				android:textColor="#FFB28850"
+				android:textSize="12sp"
+				android:layout_margin="1dp"
+				android:gravity="center"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+
