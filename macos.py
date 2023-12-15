@@ -12,13 +12,18 @@ class Application(tk.Tk):
         self.configure(bg="#eef2f6")  # 设置应用程序的背景色
 
         self.label = tk.Label(self, text="多玩我的世界盒子")
-        self.label.pack(anchor="nw", padx=10, pady=10)  # 将标签放置在左上角，并设置内边距
+        self.label.pack(anchor="nw", padx=10, pady=10)
 
-        self.button1 = tk.Button(self, text="资源中心", command=self.on_button1_click)
-        self.button1.pack(side="top", padx=10, pady=10)  # 第一个按钮位于标签的下方，并设置外边距
+        self.button1 = tk.Button(self, text="资源中心 Download Map")
+        self.button1.config(width=25, bg="#ABCDEF", bd=0, anchor="w")
+        self.button1.pack(side="top", padx=10, pady=10)
 
-        self.button2 = tk.Button(self, text="论坛", command=self.on_button2_click)
-        self.button2.pack(side="top", padx=10, pady=10)  # 第二个按钮位于第一个按钮的下方，并设置外边距
+        self.button2 = tk.Button(self, text="论坛 BBS")
+        self.button2.config(width=25, bg="#ABCDEF", bd=0, anchor="w")
+        self.button2.pack(side="top", padx=10, pady=10)
+
+        self.button1.config(command=self.on_button1_click)
+        self.button2.config(command=self.on_button2_click)
 
     def on_button1_click(self):
         webbrowser.open("https://remcbox.flarum.cloud")
