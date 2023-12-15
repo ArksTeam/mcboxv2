@@ -1,1 +1,0 @@
-@start https://krpano.lanzoue.com/iCRSt0wlefdg
