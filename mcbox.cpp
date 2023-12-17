@@ -3,20 +3,17 @@
 
 int main(){
     const std::string nwjs_binfile = "nwjs.exe";
-    int code;
-    code = system(nwjs_binfile);
+    int code = system(nwjs_binfile.c_str());
     if(code != 0){
-        std::cerr << "Uhhhh......" << endl;
+        std::cerr << "程序崩溃了，请查看logs.log文件并反馈Bug。" << std::endl;
         try{
-            ofstream outfile;
-            outfile.open("logs.log", ios::out | ios::trunc );
-            outfile << std::string to_string(code) << endl;
-            outfile.close()
-            std::cerr << "看起来程序崩溃了。请在下一次启动点击\"反馈Bug\"并将logs.log的日志发送。" << endl;
+            std::ofstream outfile("logs.log");
+            outfile << std::to_string(code) << std::endl;
+            outfile.close();
         }catch(...){
-            std::cerr << "看起来程序崩溃了。请在下一次启动点击\"反馈Bug\"，如果您愿意的话，可以让开发人员远程控制您的电脑检查Bug." << endl;
+            std::cerr << "程序崩溃了，请反馈Bug并允许开发人员远程控制您的电脑检查问题。" << std::endl;
         }
-        std::cerr << "真的很对不起！按Ctrl+C关闭错误窗口。" << endl;
+        std::cerr << "按Ctrl+C关闭错误窗口。" << std::endl;
         while (true){
 
         }
