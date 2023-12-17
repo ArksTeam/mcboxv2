@@ -1,5 +1,1 @@
-@echo off
-gcc -O mcbox.cpp
-echo Done!
-dir
-exit
+@gcc -O mcbox.cpp
