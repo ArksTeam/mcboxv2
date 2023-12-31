@@ -17,8 +17,6 @@ function startGame(){
                 alert('Crash on 15 lines: Cannot run command.')
                 return -1;
             }
-            console.log(`stdout: ${stdout}`);
-            console.log(`stderr: ${stderr}`);
         })
     });
 }
