@@ -3,5 +3,20 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ImportMap",
+            "request": "launch",
+            "mainClass": "tools.ImportMap",
+            "projectName": "mcboxv2_12552429"
+        },
+        {
+            "type": "java",
+            "name": "import_map",
+            "request": "launch",
+            "mainClass": "tools.import_map",
+            "projectName": "mcboxv2_12552429"
+        }
+    ]
 }
