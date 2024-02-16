@@ -1,2 +1,0 @@
-include ':app'
-rootProject.name = "多玩我的世界盒子"
