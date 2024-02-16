@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.qdy1 {
+    /*width: 400px;*/
+    height: 330px;
+    display: block;
+    margin: auto;
+}
+
+.qdy2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.qdy3 {
+    display: flex;
+    align-items: center;
+}
+
+.qdy4 {
+    /* text-align: center; */
+}
+
+.qdy5 {
+    text-align: center;
+    position:absolute;
+    bottom:0px;
+}
+
+.qdy6 {
+    margin: 0 auto;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width:fit-content;
+}
+
+.qdy7 {
+    margin-left: -140px;
+    /*margin-left: 13px;*/
+    margin-bottom: 20px;
+}
+
+.qdy8 {
+    margin-top: 5px;
+}
+
+.qdy9 {
+    color: #89c383;
+    font-size: 12px;
+}
+
+.qdy10 {
+    margin-top: -10000px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.bgc {
+    /*min-width: 400px;*/
+    max-width: 666px;
+    background-color: #FBEDD7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    /* border-left: 1px solid #666; */
+    /* border-right: 1px solid #666; */
+}
+
+.sy1 {
+    /*height: 70px;*/
+    /*width: 100%;*/
+    /*background-color: #89c383;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    
+    width: 100%;
+    height: 70px;
+    max-width: 666px;
+    background: #89c383;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border-radius: 10px;*/
+}
+
+.sy2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+
+/* 设置导航栏样式 */
+.nav{
+    /* 对导航栏位置进行定位处理，方便后续的图标位置的设置 */
+    position: relative; 
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.nav ul{
+    display: flex;
+    /* width: 350px; */
+    width: 100%;
+}
+.nav ul li{
+    height: 60px;
+    /* flex:1是让所有的li平均分nav这个容器 */
+    flex: 1;
+    position: relative;
+   z-index: 2;
+   display: flex;
+   justify-content: center;
+}
+
+.nav ul li span{
+    /* 进行定位，使之通过span元素带动矢量图标进行水平垂直到中心位置 */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.img1 {
+    height: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 1px;
+    margin-top: 5px;
+}
+
+.sy3 {
+    height: 150px;
+    width: 33%;
+}
+
+.sy4 {
+    display: flex;
+}
+
+.sy5 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin: 0 auto; /*水平居中*/
+    margin-top: 30px;
+}
+
+.sy6 {
+    height: 150px;
+    display: flex;
+}
+
+.sy7 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #A8814E;
+}
+
+/* 默认 */
+.a1:link {
+    color: #A8814E;
+}
+/* 未打开 */
+.a1:visited {
+    color: #A8814E;
+}
+/* 鼠标悬停 */
+.a1:hover {
+    color: #A8814E;
+}
+/* 点击时 */
+.a1:active {
+    color: #A8814E;
+} 
+
+/* 默认 */
+.a2:link {
+    color: #89c383;
+}
+/* 未打开 */
+.a2:visited {
+    color: #89c383;
+}
+/* 鼠标悬停 */
+.a2:hover {
+    color: #89c383;
+}
+/* 点击时 */
+.a2:active {
+    color: #89c383;
+} 
+
+.sy9 {
+    margin-top: 10%;/*原来35*/
+    margin-right: 25px;
+    margin-bottom: 100px;
+    height: 56px;
+}
+
+.sy10 {
+    text-align: right;
+}
+
+.sy11 {
+    color: #A8814E;
+}
+
+.sy12 {
+    color: #89c383;
+}
+
+.mt {
+    /*导航栏*/
+    margin-top: 115px;
+}
+
+.mt1 {
+    /*无用*/
+    margin-top: 130px;
+}
+
+.mt2 {
+    /*普通*/
+    margin-top: 170px;
+}
+
+.mt3 {
+    /*专题*/
+    margin-top: 165px;
+}
+
+.mt4 {
+    margin-top: 85px;
+}
+
+.mt5 {
+    margin-top: 70px;
+}
+.dhl1{
+    /* 对导航栏位置进行定位处理，方便后续的图标位置的设置 */
+    /* position: relative;  */
+    width: 100%;
+    height: 70px;
+    max-width: 666px;
+    background: #fff;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.dhl1 ul{
+    display: flex;
+    /* width: 350px; */
+    width: 100%;
+}
+
+.dhl1 ul li{
+    height: 60px;
+    /* flex:1是让所有的li平均分nav这个容器 */
+    flex: 1;
+    position: relative;
+   z-index: 2;
+   display: flex;
+   justify-content: center;
+}
+
+.dhl1 ul li span{
+    /* 进行定位，使之通过span元素带动矢量图标进行水平垂直到中心位置 */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.gj1 {
+    margin-top: 30px;
+    margin-left: 15px;
+    color: #999;
+}
+
+.gj2 {
+    display: flex;
+    margin: 15px;
+    background-color: #fffaf2;
+    padding: 15px;
+}
+
+.gj3 {
+    color: #ad7b29;
+}
+
+.gj4 {
+    color: #999;
+}
+
+.gj5 {
+    text-align: center;
+    color: #ccac80;
+    font-size: 10px;
+}
+
+.gj6 {
+    margin-left: 15px;
+    margin-top: 5px;
+    /* font-size: 13px; */
+    color: #999;
+    ;
+}
+
+.gj7 {
+    /* display: flex; */
+    margin: 15px;
+    background-color: #fffaf2;
+    padding: 15px;
+}
+
+.gj8 {
+    color: #ad7b29;
+}
+
+.gj9 {
+    color: #999;
+}
+
+.gj10 {
+    display: flex;
+    /* height: 20px; */
+}
+
+.gj11 {
+    height: 20px;
+    margin: 5px;
+}
+
+.gj12 {
+    height: 20px;
+    /* margin: 0 auto;
+    align-items: center; */
+    margin-top: 10px;
+    margin-left: auto;
+}
+
+.gj13 {
+    color: #999;
+    margin-left: auto;
+}
+
+.gj14 {
+    display: flex;
+    /* margin-top: 15px; */
+    background-color: #fffaf2;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* border-radius: 5px; */
+    /* border-radius: ; */
+}
+
+.gj15 {
+    margin-top: 15px;
+}
+
+.gj16 {
+    margin-top: 1%;/*原来16.2*/
+    margin-right: 25px;
+    height: 56px;
+}
