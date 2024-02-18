@@ -7,7 +7,4 @@ A Minecraft online tool, launcher and forum.
 | Android| Android |
 | Apple| IOS/MAC|
 
-
 This tool is used to make you more easy to use and provide Minecraft BBS and quick way of online, website: https://minecraftbox.link
-
-Tips: If you want run on iphone please use ```ios.html```, If you want run on MacOS please use ```macos.py``.
