@@ -1,5 +1,7 @@
 # mcboxv2
 
+点击链接加入群聊【多玩我的世界盒子用户群】：http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=AHFYh9Bhydt6wrgpg4yoI11oC30Cxn-8&authKey=Wdzu8O6nBsqcoMCbrrUfOry4UdX37voilrgGQe5WAwIvbKr7yCe7VRRqnr62VeH4&noverify=0&group_code=669314946
+
 mcboxv2 is a comprehensive online tool, launcher, and forum designed exclusively for Minecraft enthusiasts. Whether you are a seasoned player or a novice, mcboxv2 is here to elevate your Minecraft experience to new heights.
 
 ## Features
