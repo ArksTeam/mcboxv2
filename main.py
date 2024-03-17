@@ -6,7 +6,7 @@ from flask import Flask, send_from_directory, abort
 app = Flask(__name__)
 
 def pull():
-    os.system("git clone -b android https://github.com/ArksTeam/mcboxv2.git")
+    os.system("git pull origin android")
     time.sleep(10)
 
 @app.route('/')
