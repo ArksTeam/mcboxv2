@@ -34,7 +34,7 @@ public class MinecraftBoxApp extends JFrame {
         button1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                openWebPage("https://remcbox.flarum.cloud");
+                openWebPage("https://mcbbs.app");
             }
         });
         gbc.gridx = 0;
@@ -49,7 +49,7 @@ public class MinecraftBoxApp extends JFrame {
         button2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                openWebPage("https://bbs.example.com");
+                openWebPage("https://mcbbs.app");
             }
         });
         gbc.gridx = 0;
